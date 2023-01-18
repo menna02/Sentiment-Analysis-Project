@@ -41,7 +41,7 @@ function AddKeyword($keyword,$type){
 
 
 
-function DeleteKeyword($word){
+function ($word){
     $conn = new mysqli('localhost','root','','project');
     $select = "SELECT * FROM keyword";
     $resultofselect = mysqli_query($conn,$select);
